@@ -110,7 +110,3 @@ Click **Publish** in the Lovable editor. Cloudflare Workers + Supabase are wired
 - **Feature-first folders** (`features/users/...`): each module owns its API, schema, UI — easy to extract or scale.
 - **Zod schemas as the contract**: same schema validates forms (client) and shapes API inputs — single source of truth.
 - **Design tokens in `src/styles.css`**: no hardcoded colors in components → trivially themeable.
-
----
-
-Built with [Lovable](https://lovable.dev).
